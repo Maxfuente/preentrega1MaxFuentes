@@ -35,4 +35,4 @@ return(
 
 }
 
-export default ItemCount;
+export default ItemCount
