@@ -9,7 +9,7 @@ const NavBar = () => {
             <div>
                 
             <Link to='/category/Discos SSD'> <button type="button" class="btn btn-primary">Discos SSD</button></Link>
-            <Link to ='category/Memoria'> <button type="button" class="btn btn-danger">Memoria Ram</button></Link>
+            <Link to ='/category/Memorias'> <button type="button" class="btn btn-danger">Memoria Ram</button></Link>
             <Link to ='/category/Audifonos'><button type="button" class="btn btn-primary">Audifonos</button></Link>
             </div>
             <CartWidget/>
