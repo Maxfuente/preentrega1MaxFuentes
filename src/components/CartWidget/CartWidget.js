@@ -1,5 +1,5 @@
 import carrito from './Assets/carrito.svg'
-
+import './CardWidget.css'
 const CartWidget =() => {
      return (
         <div>
