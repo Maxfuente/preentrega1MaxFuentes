@@ -14,7 +14,7 @@ const ItemDetail =({id, name, img,category, description, price, stock}) =>{
                         Categoria:{category}
                     </p>
                     <p className="Info">
-                        Mejora la velocidad de tu cpu con este upgrade:{description}
+                        Descripcion :{description}
                     </p>
                     <p className="Info">
                         Precio:{price}

@@ -43,3 +43,17 @@
   .Option:hover {
     background-color: #0056b3;
   }
+
+  @media screen and (max-width: 768px) {
+    .CardItem {
+      padding: 10px;
+    }
+  
+    .ItemImg {
+      max-height: 8cm;
+    }
+  
+    .ItemHeader {
+      font-size: 18px;
+    }
+  }

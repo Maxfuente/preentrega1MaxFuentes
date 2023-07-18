@@ -2,8 +2,10 @@
     border: 8px solid #b91a1a;
     border-radius: 8px;
     padding: 20px;
+    max-width: 250px;
     margin-bottom: 20px;
     background-color: #94260b;
+    
   }
   
   .Header {
@@ -42,4 +44,17 @@
   
   .Option:hover {
     background-color: #0056b3;
+  }
+  @media screen and (max-width: 768px) {
+    .CardItem {
+      padding: 10px;
+    }
+  
+    .ItemImg {
+      max-height: 8cm;
+    }
+  
+    .ItemHeader {
+      font-size: 18px;
+    }
   }

@@ -8,9 +8,9 @@ const NavBar = () => {
             </Link>
             <div>
                 <Link to='/'> <button type="button" class="btn btn-primary">Discos SSD</button></Link>
-            <button type="button" class="btn btn-danger">Memorias Ram</button>
-            <button type="button" class="btn btn-primary">Audifonos</button>
-            <button type="button" class="btn btn-danger">Teclados</button>   
+            <Link to ='/'> <button type="button" class="btn btn-danger">Memorias Ram</button></Link>
+            <Link to ='/'><button type="button" class="btn btn-primary">Audifonos</button></Link>
+            <Link to ='/'><button type="button" class="btn btn-danger">Teclados</button></Link>
             
             </div>
             <CartWidget/>
